@@ -50,14 +50,21 @@ markdown_extensions:
       linenums: true
   - toc:                    # 锚点
       permalink: true
-  - pymdownx.arithmatex     # 数学公式
+  - pymdownx.arithmatex:    # 数学公式
+      generic: true
   - pymdownx.betterem:      # 对加粗和斜体更好的检测
       smart_enable: all
   - pymdownx.magiclink      # 自动识别超链接
   - pymdownx.tasklist:      # 复选框checklist
       custom_checkbox: true
+extra_javascript:
+  - mathjax/config.js
+  - mathjax/tex-mml-chtml.js
 extra:
   homepage: https://github.com/mmdjiji/pytorch-learning
 
 nav:
   - 简介: index.md
+  - 深度学习: deep-learning.md
+  - 基础: basic.md
+  - 模型: model.md
