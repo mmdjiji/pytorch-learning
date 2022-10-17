@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: PyTorch Learning
 theme:
   name: material
   icon:
@@ -30,8 +30,8 @@ theme:
     - search.suggest
     # - toc.integrate
     - content.code.annotate
-repo_url: https://github.com/mmdjiji/mkdocs-template
-repo_name: mmdjiji/mkdocs-template
+repo_url: https://github.com/mmdjiji/pytorch-learning
+repo_name: mmdjiji/pytorch-learning
 edit_uri: edit/main/docs/
 markdown_extensions:
   - admonition              # 提示块
@@ -57,4 +57,7 @@ markdown_extensions:
   - pymdownx.tasklist:      # 复选框checklist
       custom_checkbox: true
 extra:
-  homepage: https://github.com/mmdjiji/mkdocs-template
+  homepage: https://github.com/mmdjiji/pytorch-learning
+
+nav:
+  - 简介: index.md
